@@ -1,7 +1,6 @@
 ---
 title: 'Onepiece'
 subtitle: 'Yearly Review'
-date: 2018-06-30 00:00:00
 description: 
 featured_image: '/images/cover/onepiece.png'
 ---

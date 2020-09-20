@@ -1,15 +1,6 @@
 ---
 ---
 
-@import "_minimal-mistakes";
-// - - - - - - - - - - Foundations
-
-@import "_reset";
-@import "_mixins";
-@import "_plugins";
-
-
-
 // - - - - - - - - - - Variables
 
 
@@ -137,14 +128,20 @@ $overlay-opacity: {{ site.data.settings.grid_settings.overlay_opacity }};
 $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 
+// - - - - - - - - - - Foundations
+
+@import "_reset";
+@import "_mixins";
+@import "_plugins";
+
 
 // - - - - - - - - - - Global styles
-@import "_includes/_post";
 @import "_basic";
 
 @import "_includes/_header";
 @import "_includes/_footer";
 
+@import "_includes/_content";
 @import "_includes/_socials";
 @import "_includes/_gallery";
 @import "_includes/_syntax";
@@ -153,8 +150,9 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 
 // - - - - - - - - - - Section styles
-
+@import "_includes/_post";
 @import "_includes/_portfolio";
+@import "_includes/_blog";
 
 
 

@@ -1,8 +1,8 @@
 site: WeiZhu Design
 email: wei.zhu@network.rca.ac.uk
 contact: static
-url: https://weizhudesign.github.io
-baseurl: /weizhudesign.git.io
+url: 
+baseurl: /project
 
 
 
@@ -18,23 +18,30 @@ collections:
     permalink: /project/:slug
 
 defaults:
-  - scope:
+
+  -
+    scope:
       path: ""
     values:
       layout: "default"
-
-  - scope:
+  -
+    scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
- 
-  - scope:
+  -
+    scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      related: true
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
 
 markdown: kramdown

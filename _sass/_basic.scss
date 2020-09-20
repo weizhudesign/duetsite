@@ -363,6 +363,8 @@ body.loading {
 
 section {
 	margin-top: 40px;
+	display: block;
+	text-align: center;
 
 	@include mq(tabletp) {
 		margin-top: 50px;

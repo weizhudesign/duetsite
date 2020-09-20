@@ -5,51 +5,16 @@ layout: default
 <section class="intro">
 
 	<div class="wrap">
-	
+
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.date | date_to_long_string }}</p>
+
 	</div>
+
 </section>
 
 <section class="single">
-    
+
 	{{ page.content }}
 
 </section>
-
-<section class="pagination">
-  {% include post_pagination.html %}
-</section>
-
-<section class="page__related">
-  
-    <h3 class="page__related-title">You May Also Enjoy</h3>
-
-    <div class="content-wrap portfolio-wrap">
-      {% for post in site.posts reversed limit:4 %}
-      <div class="portfolio-item">
-
-        <a class="portfolio-item__link" href="{{ post.url | relative_url }}">
-        
-          <div class="portfolio-item__image">
-            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
-          </div>  
-       
-          <div class="portfolio-item__content">
-            <div class="portfolio-item__info">
-              <h2 class="portfolio-item__title">
-                {{ post.title }}
-              </h2>
-            </div>
-          </div>
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-</section>
-<button onclick="topFunction()" id="top" title="Go to top">Top</button>
-
-
-
-
-
-
-

@@ -7,10 +7,10 @@ featured_image:
 
 
 <div class="gallery" data-columns="4">
-	<img src="/images/contact/pattern1.png">
-	<img src="/images/contact/pattern2.png">
-	<img src="/images/contact/pattern3.png">
-	<img src="/images/contact/pattern4.png">
+	<img src="{{site.baseurl}}/images/contact/pattern1.png">
+	<img src="{{site.baseurl}}/images/contact/pattern2.png">
+	<img src="{{site.baseurl}}/images/contact/pattern3.png">
+	<img src="{{site.baseurl}}/images/contact/pattern4.png">
 </div>
 
 

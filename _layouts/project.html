@@ -10,8 +10,12 @@ layout: default
 
 <section class="single">
     
-	{{ page.content }}
+  {{ page.content }}
 
+</section>
+
+<section>
+{% include gallery %}
 </section>
 
 <section class="page__related">
@@ -19,19 +23,19 @@ layout: default
     <h3 class="page__related-title">You May Also Enjoy</h3>
 
     <div class="content-wrap portfolio-wrap">
-      {% for post in site.posts reversed limit:4 %}
+      {% for page in site.projects reversed limit:4 %}
       <div class="portfolio-item">
 
-        <a class="portfolio-item__link" href="{{ post.url | relative_url }}">
+        <a class="portfolio-item__link" href="{{ page.url | relative_url }}">
         
           <div class="portfolio-item__image">
-            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+            <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
           </div>  
        
           <div class="portfolio-item__content">
             <div class="portfolio-item__info">
               <h2 class="portfolio-item__title">
-                {{ post.title }}
+                {{ page.title }}
               </h2>
             </div>
           </div>
@@ -40,7 +44,7 @@ layout: default
       {% endfor %}
     </div>
 </section>
-<button onclick="topFunction()" id="top" title="Go to top">Top</button>
+
 
 
 

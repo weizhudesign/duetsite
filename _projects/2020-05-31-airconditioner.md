@@ -10,9 +10,9 @@ The new generation Midea air conditioner gives people no wind feeling which make
 People such as the elderly and children are not suitable for cold winds, so it is more sensible to use windless air conditioners. 
 I transfer the invisible cool feeling into the visible soft gentle ice hands, deeply caring for the weak people.
 
-![]({{site.baseurl}}/images/midea/illustration.jpg)
+![]({{ site.url }}{{ site.baseurl }}/images/midea/illustration.jpg)
 
-![]({{site.baseurl}}/images/midea/sketch.jpg)
+![]({{ site.url }}{{ site.baseurl }}/images/midea/sketch.jpg)
 ###### Sketch
 
 ---

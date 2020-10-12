@@ -1,0 +1,117 @@
+// - - - - - - - - - - Variables
+
+
+// Colors
+$background-color: #ffffff;
+$background-alt-color:#f4f5f6;
+$border-color: #dddddd;
+
+$text-dark-color:#303c4c; 
+$text-medium-color:#6C7A89; 
+$text-light-color:#ABB7B7;
+
+$accent-color:#99fcef;
+
+$overlay-background-color:#2bb8b8; 
+$overlay-text-color:#ffffff;
+$overlay-accent-color:#2A2F36; 
+
+$error-color:#D64541;
+
+
+// Fonts
+$font_embed: '<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">';
+$body-font: "Ubuntu Mono", monospace;
+$title-font: "Ubuntu Mono", monospace;
+
+$regular-weight: 400;
+$bold-weight: 600;
+
+
+// Typography
+
+$sitetitle-small: 20px;
+$sitetitle-medium: 26px;
+$sitetitle-large: 30px;
+$sitetitle-weight: 600;
+$sitetitle-spacing: 0.2em;
+
+$menu-small: 15px;
+$menu-medium: 18px;
+$menu-large: 21px;
+$menu-weight: 300;
+$menu-spacing: 0em;
+
+$grid-item-title-small: 10px;
+$grid-item-title-medium: 16px;
+$grid-item-title-large: 20px;
+$grid-item-title-weight: 600;
+$grid-item-title-spacing: -0.02em;
+
+$grid-item-subtitle-small: 8px;
+$grid-item-subtitle-medium: 14px;
+$grid-item-subtitle-large: 16px;
+$grid-item-subtitle-weight: 400;
+$grid-item-subtitle-spacing: 0em;
+
+$h1-small: 25px;
+$h1-medium: 35px;
+$h1-large: 55px;
+$h1-weight: 700;
+$h1-spacing: -0.01em;
+$h1-lineheight: 1.3;
+
+$h2-small: 22px;
+$h2-medium: 30px;
+$h2-large: 35px;
+$h2-weight: 700;
+$h2-spacing: -0.02em;
+$h2-lineheight: 1.2;
+
+$h3-small: 22px;
+$h3-medium: 25px;
+$h3-large: 30px;
+$h3-weight: 600;
+$h3-spacing: -0.02em;
+$h3-lineheight: 1.2;
+
+$h4-small: 17px;
+$h4-medium: 22px;
+$h4-large: 24px;
+$h4-weight: 600;
+$h4-spacing: 0em;
+$h4-lineheight: 1.6;
+
+$h5-small: 17px;
+$h5-medium: 20px;
+$h5-large: 24px;
+$h5-weight: 17;
+$h5-spacing: 0em;
+$h5-lineheight: 1.6 ;
+
+$h6-small: 15px;
+$h6-medium: 16px;
+$h6-large: 17px;
+$h6-weight: 400;
+$h6-spacing: 0em;
+$h6-lineheight: 1.6;
+
+$p-small: 14px;
+$p-medium: 15px;
+$p-large:16px;
+$p-weight: 400;
+$p-spacing: 0em;
+$p-lineheight: 1.6;
+
+$blockquote-small: 25px;
+$blockquote-medium: 35px;
+$blockquote-large: 45px;
+$blockquote-weight: 300;
+$blockquote-spacing: -0.02em;
+$blockquote-lineheight: 1.6;
+
+$button-weight: 600;
+$button-spacing: 0em;
+$overlay_opacity: 0.8;
+$grid_spacing: 15px;
+$footer-logo-width: 5vw;

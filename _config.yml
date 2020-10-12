@@ -4,8 +4,6 @@ contact: static
 url: https://weizhudesign.github.io
 baseurl: 
 
-
-
 collections:
   pages:
     output: true
@@ -51,6 +49,7 @@ kramdown:
   syntax_highlighter: rouge
   
 sass:
+  sass_dir: _sass
   style: compressed
 
 plugins:

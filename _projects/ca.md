@@ -16,9 +16,9 @@ gallery:
 
 Pattern design for C&A envioronmental friendly cotton.
 
-<!-- ![]({{ site.url }}{{ site.baseurl }}/images/ca/illustration.jpg)
+![]({{ site.url }}{{ site.baseurl }}/images/ca/illustration.jpg)
 
-![]({{ site.url }}{{ site.baseurl }}/images/ca/bag.jpg) -->
+![]({{ site.url }}{{ site.baseurl }}/images/ca/bag.jpg)
 
 ---
 

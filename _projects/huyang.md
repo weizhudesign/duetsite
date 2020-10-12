@@ -11,7 +11,6 @@ A friend of mine established a WeChat official account, which mainly records her
 
 ![]({{ site.url }}{{ site.baseurl }}/images/huyang/illustration.jpg)
 
-
 ![]({{ site.url }}{{ site.baseurl }}/images/huyang/sketch.jpg)
 ###### sketch
 

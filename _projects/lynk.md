@@ -10,15 +10,15 @@ featured_image: '/images/cover/lynk.png'
 Self expression should be dare to show your instinct.Energetic sports and adventurous spirit; the radiant and energetic temperament; a confident posture. The most recent link02 car ride takes you out of the universe.Born global, open to connectivity, you get more than cars.
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/lynk/1.png)
+![]({{ site.url }}{{ site.baseurl }}/images/lynk/head.png)
 
-![]({{ site.url }}{{ site.baseurl }}/images/lynk/2.jpg)
+![]({{ site.url }}{{ site.baseurl }}/images/lynk/intro-1.jpg)
 
-![]({{ site.url }}{{ site.baseurl }}/images/lynk/3.jpg)
+![]({{ site.url }}{{ site.baseurl }}/images/lynk/intro-2.jpg)
 
-![]({{ site.url }}{{ site.baseurl }}/images/lynk/5.jpg)
+![]({{ site.url }}{{ site.baseurl }}/images/lynk/intro-3.jpg)
 
-![]({{ site.url }}{{ site.baseurl }}/images/lynk/4.jpg)
+![]({{ site.url }}{{ site.baseurl }}/images/lynk/intro-4.jpg)
 
 ![]({{ site.url }}{{ site.baseurl }}/images/lynk/sketch.jpg)
 
